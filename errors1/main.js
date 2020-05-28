@@ -25,10 +25,10 @@ function malissaTalk(){
     return "Malissa here! Why am I stuck in this button!?";
 }
 
-davebutton.addEventListener("click", function (){
+daveButton.addEventListener("click", function (){
     talkingSpaceDive.innerHTML += "<div>" +daveTalk + "</div>"
 })
 
-malisaButton.addEventListener("click", function (){
+malissaButton.addEventListener("click", function (){
     talkingSpaceDive.innerHTML += "<div>" + malissaTalk + "</div>"    
 })
